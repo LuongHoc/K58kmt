@@ -1,6 +1,6 @@
 # K58kmt
-Bài tập 02 của sv: K225480106025 - Lương Văn Học - Môn hệ quản trị csdl
-BÀI TOÁN:
+# Bài tập 02 của sv: K225480106025 - Lương Văn Học - Môn hệ quản trị csdl
+# BÀI TOÁN:
 - Tạo csdl quan hệ với tên QLSV gồm các bảng sau:
   + SinhVien(#masv,hoten,NgaySinh)
   + Lop(#maLop,tenLop)
@@ -13,7 +13,7 @@ BÀI TOÁN:
   + LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
   + DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
 
-YÊU CẦU:
+# YÊU CẦU:
 1. Thực hiện các hành động sau trên giao diện đồ hoạ để tạo cơ sở dữ liệu cho bài toán:
   + Tạo database mới, mô tả các tham số(nếu có) trong quá trình.
   + Tạo các bảng dữ liệu với các trường như mô tả, chọn kiểu dữ liệu phù hợp với thực tế (tự tìm hiểu)
@@ -25,7 +25,7 @@ YÊU CẦU:
 ![image](https://github.com/user-attachments/assets/f5dcdc3f-dabc-4209-8bfb-8cf45ab0ad11)
 ![image](https://github.com/user-attachments/assets/504409a0-af4a-4bf2-b0b7-52b008b5b3ba)
 
-# Đây là ảnh mô tả việc tạo bảng:
+# I.Đây là ảnh mô tả việc tạo bảng:
 ![image](https://github.com/user-attachments/assets/89dcb971-230d-4faa-b857-d71765db3ad8)
 ### 1. Bảng Sinh Viên
 ![image](https://github.com/user-attachments/assets/9420e447-de60-479e-96d4-7a26cca06a10)
@@ -92,10 +92,11 @@ Thiết lập CK cho bảng DKMH:
 ![image](https://github.com/user-attachments/assets/c990b57f-26c2-4b87-9d61-4075c9c67dd2)
 ![image](https://github.com/user-attachments/assets/af780422-1284-4cca-ae0e-9a2655ebc19e)
 
-# 2.Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương
+# II.Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương
 ![image](https://github.com/user-attachments/assets/66de231b-53ae-4083-80af-0379b02c5279)
 Lệnh Sql sau khi chuyển từ thao tác đồ hoạ của bảng SinhVien:
 ![image](https://github.com/user-attachments/assets/35d7ef2d-88c5-41a1-821e-67618adbb275)
+Các bảng khác chyển tương tự
 
 
 
